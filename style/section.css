@@ -56,3 +56,27 @@ main {
 .portfolio__image:nth-child(3n) {
   margin-right: 0;
 }
+
+.portfolio__image:nth-child(1) {
+  background-image: url(../img/sketch.jpg);
+}
+
+.portfolio__image:nth-child(2) {
+  background-image: url(../img/websuku.png);
+}
+
+.portfolio__image:nth-child(3) {
+  background-image: url(../img/write.jpg);
+}
+
+.portfolio__image:nth-child(4) {
+  background-image: url(../img/webcamp.png);
+}
+
+.portfolio__image:nth-child(5) {
+  background-image: url(../img/talk.jpg);
+}
+
+.portfolio__image:nth-child(6) {
+  background-image: url(../img/webcamp-mother.png);
+}
