@@ -146,11 +146,16 @@ h3 {
 
 .contact {
   display: flex;
-
+  text-align: center;
 }
 
 .contact-form {
   width: 400px;
+}
+
+.contact-form__inner {
+  display: inline-block;
+  text-align: left;
 }
 
 .contact-form__category {
@@ -164,3 +169,18 @@ h3 {
 .contact-sns {
   width: 400px;
 }
+
+.contact-sns__title {
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.sns-icons {
+  display: flex;
+}
+
+.contact-sns__icon {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
