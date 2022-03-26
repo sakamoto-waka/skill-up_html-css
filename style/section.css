@@ -143,3 +143,24 @@ h3 {
 .profile-body__title--skills {
   margin-top: 20px;
 }
+
+.contact {
+  display: flex;
+
+}
+
+.contact-form {
+  width: 400px;
+}
+
+.contact-form__category {
+  margin-bottom: 5px;
+}
+
+.contact-form__category--tel {
+  margin-top: 20px;
+}
+
+.contact-sns {
+  width: 400px;
+}
