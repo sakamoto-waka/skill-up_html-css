@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  width: 100%;
+  height: 70px;
+  background-color: #ec715f;
+  
+}
+
+.header .header__inner {
+  width: 1024px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__left {
+  margin-right: auto;
+  
+}
+h1 .header__logo {
+  width: auto;
+  height: 70px;
+}
+
+.header__right {
+}
+
+.header__link {
+  margin: 30px;
+  font-size: 16px;
+  color: #fafafa;
+}
