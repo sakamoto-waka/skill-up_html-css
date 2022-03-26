@@ -88,11 +88,24 @@ main {
 
 .feature {
   width: 320px;
+  margin-right: 10px;
   text-align: center;
+}
+
+.feature:nth-child(3) {
+  margin-right: 0;
 }
 
 .feature__icon .fas {
   font-size: 60px;
+}
+
+.feature__title {
+  margin: 10px auto;
+}
+
+.feature__title h3 {
+  font-size: 20px;
 }
 
 .feature__text {
