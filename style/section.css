@@ -2,6 +2,10 @@ main {
   width: 100%;
 }
 
+h3 {
+  font-size: 20px;
+}
+
 .section {
   display: flex;
   justify-content: center;
@@ -110,11 +114,32 @@ main {
   margin: 10px auto;
 }
 
-.feature__title h3 {
-  font-size: 20px;
-}
-
 .feature__text {
   text-align: left;
 }
 
+.profile {
+  display: flex;
+  text-align: center;
+}
+
+.profile__image {
+  width: 512px;
+}
+
+.profile__image img {
+  border-radius: 50%;
+}
+
+.profile-body {
+  width: 512px;
+  text-align: left;
+}
+
+.profile-body__title {
+  margin-bottom: 5px;
+}
+
+.profile-body__title--skills {
+  margin-top: 20px;
+}
