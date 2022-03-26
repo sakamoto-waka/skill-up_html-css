@@ -96,7 +96,7 @@ main {
   margin-right: 0;
 }
 
-.feature__icon .fas {
+.feature__icon .fas, .fa-solid {
   font-size: 60px;
 }
 
