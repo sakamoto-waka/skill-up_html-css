@@ -11,9 +11,12 @@ main {
   background-color: #cccecf;
 }
 
+.container {
+  margin: 90px auto;
+}
+
 .container-heading {
   text-align: center;
-  margin-top: 90px;
 }
 
 .container-heading__line {
@@ -81,4 +84,17 @@ main {
 
 .portfolio__image:nth-child(6) {
   background-image: url(../img/webcamp-mother.png);
+}
+
+.feature {
+  width: 320px;
+  text-align: center;
+}
+
+.feature__icon .fas {
+  font-size: 60px;
+}
+
+.feature__text {
+  text-align: left;
 }
