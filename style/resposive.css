@@ -1,14 +1,14 @@
 @media screen and (max-width:768px) {
   body {
     width: 90%;
-    display: block!important;
+    display: block;
   }
   .header {
     height: 50px;
   }
 
   .header__inner {
-    width: 500px;
+    width: 90%;
   }
 
   .header__link {
@@ -50,6 +50,7 @@
 
   .portfolio {
     display: block;
+    width: 90%;
   }
 
   .container__inner {
