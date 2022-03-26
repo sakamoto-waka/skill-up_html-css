@@ -149,4 +149,16 @@
     margin: 5px auto 20px;
   }
 
+  .contact-sns {
+    width: 90%;
+    margin: 0 auto 5px;
+  }
+  .contact-sns__title {
+    text-align: center;
+  } 
+
+  .sns-icons {
+    justify-content: center;
+  }
+
 }
