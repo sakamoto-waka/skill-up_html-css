@@ -86,6 +86,12 @@ main {
   background-image: url(../img/webcamp-mother.png);
 }
 
+.container__inner {
+  width: 980px;
+  display: flex;
+  flex-direction: row;
+}
+
 .feature {
   width: 320px;
   margin-right: 10px;
@@ -111,3 +117,4 @@ main {
 .feature__text {
   text-align: left;
 }
+
