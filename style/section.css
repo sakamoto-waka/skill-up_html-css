@@ -35,3 +35,24 @@ main {
 .container-heading__text {
   margin: 30px auto;
 }
+
+.portfolio {
+  width: 920px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio__image {
+  width: 300px;
+  height: 250px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.portfolio__image:nth-child(-n+3) {
+  margin-top: 0;;
+}
+
+.portfolio__image:nth-child(3n) {
+  margin-right: 0;
+}
