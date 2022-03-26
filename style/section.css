@@ -18,11 +18,20 @@ main {
 
 .container-heading__line {
   width: 70px;
+  margin: 0 auto;
+  border-bottom: 3px solid #ec715f ;
 }
 
 .container-heading__title {
+  margin: 8px auto;
+  
+}
+
+.container-heading__title h2 {
   font-size: 32px;
   color: #000000;
-  padding: 8px auto;
-  
+}
+
+.container-heading__text {
+  margin: 30px auto;
 }
