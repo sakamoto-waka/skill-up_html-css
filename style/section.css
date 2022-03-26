@@ -47,6 +47,8 @@ main {
   height: 250px;
   margin-right: 10px;
   margin-top: 10px;
+  background-size: cover;
+  background-position: center;
 }
 
 .portfolio__image:nth-child(-n+3) {
