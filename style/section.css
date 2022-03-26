@@ -8,6 +8,21 @@ main {
 }
 
 .section--grey {
-  background-color: #eceff1;
+  background-color: #cccecf;
 }
 
+.container-heading {
+  text-align: center;
+  margin-top: 90px;
+}
+
+.container-heading__line {
+  width: 70px;
+}
+
+.container-heading__title {
+  font-size: 32px;
+  color: #000000;
+  padding: 8px auto;
+  
+}
